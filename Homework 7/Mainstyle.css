@@ -1,0 +1,31 @@
+
+span{
+    color:rgb(255, 255, 255);
+    background-color:rgba(255, 255, 255, 0);
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size:24px;
+}
+
+span.redColor{
+    color:rgb(255, 187, 0);
+    background-color: rgba(255, 255, 255, 0);
+    font-family:'Times New Roman', Times, serif;
+    font-size:24px;
+}
+
+span.goodWriting{
+    color:rgb(255, 255, 255);
+    background-color: rgba(255, 255, 255, 0);
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size:16px;
+}
+
+#specificText {
+    color:rgb(49, 32, 202);
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-size:16px;
+}
+
+body {
+    background-image: url(https://image.winudf.com/v2/image/Y29tLkRyZWFtV2FsbHBhcGVycy5EYXJrRm9yZXN0MDFfc2NyZWVuc2hvdHNfMF81OGM5N2MzNw/screen-0.jpg?fakeurl=1&type=.webp);
+}
