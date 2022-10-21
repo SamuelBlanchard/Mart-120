@@ -1,0 +1,108 @@
+<html>
+    <head>
+    <title>Contact Us!</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+    integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous">
+</script>
+    </head>
+    <header>Contact Us!</header>
+    <body>
+
+
+       
+        <script>
+            function checkboxes()
+            {
+                var firstName = document.getElementById("fName").value;
+                if(firstName == "")
+            {
+                document.getElementById("fName").focus();
+                document.getElementById("fName").style.backgroundColor = "red";
+                document.getElementById("fNameMessage").innerHTML = "*Required";
+                document.getElementById("fNameMessage").style.color = "red";
+            }
+            else
+                {
+                    document.getElementById("fName").focus();
+                    document.getElementById("fName").style.backgroundColor = "white";
+                    document.getElementById("fNameMessage").style.color ="white";      
+                       
+                    }
+                    
+var lastName = document.getElementById("lName").value;
+if(lastName == "")
+{
+document.getElementById("lName").focus();
+document.getElementById("lName").style.backgroundColor = "red";
+document.getElementById("lNameMessage").innerHTML = "*Required";
+document.getElementById("lNameMessage").style.color = "red";
+}
+else
+{
+    document.getElementById("lName").focus();
+    document.getElementById("lName").style.backgroundColor = "white";
+    document.getElementById("lNameMessage").style.color ="white";      
+       
+    }
+
+    var emailName = document.getElementById("email").value;
+    if(emailName == "")
+{
+    document.getElementById("email").focus();
+    document.getElementById("email").style.backgroundColor = "red";
+    document.getElementById("emailNameMessage").innerHTML = "*Required";
+    document.getElementById("emailNameMessage").style.color = "red";
+}
+else
+    {
+        document.getElementById("email").focus();
+        document.getElementById("email").style.backgroundColor = "white";
+        document.getElementById("emailNameMessage").style.color ="white";           
+        }
+            }
+
+
+
+         
+</script>
+         
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        <form action="nextPage.html" type="post"></form>
+      <p>First Name: <input type="text" id="fName">&nbsp;<span id="fNameMessage"></span></p>
+      <p>Last name: <input type="text" id="lName">&nbsp;<span id="lNameMessage"></span></p>
+      <p>Email Adress: <input type="text" id="email">&nbsp;<span id="emailNameMessage"></span></p>
+<form>
+         <h3>Do you accept terms and agreement?</h3>
+         Yes:<input type="radio" name="answer" id="yesCircle" value="answer" required="required">&nbsp;<span id="answerMessage"></span><br>
+         No:<input type="radio" name="answer" id="noCircle" value="answer" required="required">&nbsp;<span id="answerMessage"></span><br>
+         <button id="btnSubmit" class="btn btn-primary" onclick='checkboxes();' >Submit My Info</button>
+    </form>
+
+
+
+
+    <a
+    href="file:///C:/Users/Samuel/OneDrive/Desktop/HtmlCodingProject.html">Home Page</a>
+    <a
+    href="file:///C:/Users/Samuel/OneDrive/Desktop/Short%20Story.html">Second Page</a>
+   
+    </body>
